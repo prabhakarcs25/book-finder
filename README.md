@@ -1,12 +1,43 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📚 Book Finder App
 
-## Expanding the ESLint configuration
+## 🎯 Objective
+This is a simple **Book Finder application** built for Alex (a college student) who wants to search for books easily.  
+It uses the **Open Library API** to fetch book data including title, author, publish year, and cover image.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- ⚛️ React (with Vite)
+- 🎨 Tailwind CSS
+- 🌐 Open Library Search API
+- 🚀 Deployed on CodeSandbox / StackBlitz / Vercel
+
+---
+
+## 🚀 Live Demo
+🔗 https://book-finder-xi-ten.vercel.app/
+
+---
+
+## 💻 Installation & Setup
+Clone this repo and run locally:
+
+
+# Clone the repository
+git clone https://github.com/prabhakarcs25/book-finder.git
+
+# Go to project folder
+cd book-finder
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+-----------------------------------------------------------------------
+# Build for production
+npm run build
