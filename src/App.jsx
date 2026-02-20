@@ -45,6 +45,7 @@ export default function App() {
       </header>
 
       <main className="max-w-4xl mx-auto p-4">
+        <h1>Enter book name for search......</h1>
         <SearchBar value={query} onChange={setQuery} />
 
         {loading && <p className="mt-4">Loading books...</p>}
